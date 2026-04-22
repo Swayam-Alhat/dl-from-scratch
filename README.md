@@ -10,7 +10,7 @@ It consist of layers of interconnected nodes/neurons that processes data and lea
 
 It consist of -
 
-1. ** Nodes/Neurons**: Processing units that receive, process, and transmit information, arranged in layers.
+1. **Nodes/Neurons**: Processing units that receive, process, and transmit information, arranged in layers.
 
 2. **Input Layer**: Receives the raw data or information
 
