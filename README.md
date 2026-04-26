@@ -59,3 +59,19 @@ The learning process can be categorized into two main types:
 **Perceptron** is one of the most earliest and fundamental ML algorithm that formed a foundation for neural networks & todays AI systems.
 
 The **Perceptron model** is a type of artificial neuron that functions as a **_linear binary classifier_**. Its purpose is to classify data points into one of two categories by learning a decision boundary from labeled training data.
+
+### Components of Perceptron
+
+- **Input layer**: The input layer consists of feature values or data points that the Perceptron will classify. Each input is assigned a corresponding weight.
+- **Weights**: Weights determine the importance of each input in the classification process. The model adjusts these weights during training to improve accuracy.
+- **Bias**: The bias term helps the Perceptron shift the decision boundary, improving flexibility in data classification.
+- **Activation function**: The activation function, such as a step function or sigmoid function, determines the output based on the weighted sum of the inputs.
+- **Output**: The output is the final result of the Perceptron’s decision, typically a binary value (0 or 1) in the case of binary classification.
+
+Together, these components allow the Perceptron to learn from data, adjust its parameters, and generate predictions.
+
+### How perceptron works
+
+The Perceptron model operates in a step-by-step process that involves computing the weighted sum of inputs, applying an activation function, and classifying the output.
+
+1. Initialize Weights and Bias: The model begins by assigning random weights to the inputs and setting a bias value
