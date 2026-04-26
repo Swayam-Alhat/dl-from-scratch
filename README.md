@@ -83,7 +83,7 @@ The Perceptron model operates in a step-by-step process that involves computing 
 3. **Applies the Activation function**: Perceptron applies the activation function (Step function in this case) to the weighted sum, to get final prediction in binary form (0 or 1).
 
 >[!Note]
-> In single layer perceptron, **Step function** is used as activation function.
+> In a ***single-layer perceptron***, a **step function** is typically used as the activation function, whereas in a ***multilayer perceptron***, *non-linear activation functions* such as **sigmoid** or **ReLU** are used.
 
 
 4. **Update Weights and bias**: It compares predicted and actual value. If they are different, perceptron uses its learning rule to update weights and bias.
