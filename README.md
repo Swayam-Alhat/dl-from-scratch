@@ -72,7 +72,7 @@ Together, these components allow the Perceptron to learn from data, adjust its p
 
 ![Perceptron](Perceptron.jpg)
 
-### How perceptron works
+### How Single layer Perceptron works
 
 The Perceptron model operates in a step-by-step process that involves computing the weighted sum of inputs, applying an activation function, and classifying the output.
 
