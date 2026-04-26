@@ -65,7 +65,7 @@ The **Perceptron model** is a type of artificial neuron that functions as a **_l
 - **Input layer**: The input layer consists of feature values or data points that the Perceptron will classify. Each input is assigned a corresponding weight.
 - **Weights**: Weights determine the importance of each input in the classification process. The model adjusts these weights during training to improve accuracy.
 - **Bias**: The bias term helps the Perceptron shift the decision boundary, improving flexibility in data classification.
-- **Activation function**: The activation function, such as a step function or sigmoid function, determines the output based on the weighted sum of the inputs.
+- **Activation function**: The activation function, typically step function determines the output based on the weighted sum of the inputs.
 - **Output**: The output is the final result of the Perceptron’s decision, typically a binary value (0 or 1) in the case of binary classification.
 
 Together, these components allow the Perceptron to learn from data, adjust its parameters, and generate predictions.  
@@ -76,7 +76,7 @@ Together, these components allow the Perceptron to learn from data, adjust its p
 
 The Perceptron model operates in a step-by-step process that involves computing the weighted sum of inputs, applying an activation function, and classifying the output.
 
-1. **Initialize Weights and Bias**: At the beginning, perceptron randomly initialize values of weights and bias (usually both as 0).
+1. **Initialize Weights and Bias**: At the beginning, perceptron initialize values of weights and bias (usually both as 0).
   
 2. **Calculate Weighted sum**: It multiplies each input feature with its corresponding weights and sum them up. After that, adds bias to it to get weighted sum.
 
@@ -88,4 +88,4 @@ The Perceptron model operates in a step-by-step process that involves computing 
 
 4. **Update Weights and bias**: It compares predicted and actual value. If they are different, perceptron uses its learning rule to update weights and bias.
 
-5. **Repeat**: Repeat the process until model predicts correct outputs.
+5. **Repeat**: Repeat the process until model converges.
