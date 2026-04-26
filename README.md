@@ -68,7 +68,9 @@ The **Perceptron model** is a type of artificial neuron that functions as a **_l
 - **Activation function**: The activation function, such as a step function or sigmoid function, determines the output based on the weighted sum of the inputs.
 - **Output**: The output is the final result of the Perceptron’s decision, typically a binary value (0 or 1) in the case of binary classification.
 
-Together, these components allow the Perceptron to learn from data, adjust its parameters, and generate predictions.
+Together, these components allow the Perceptron to learn from data, adjust its parameters, and generate predictions.  
+
+![Perceptron](Perceptron.jpg)
 
 ### How perceptron works
 
