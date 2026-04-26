@@ -76,4 +76,12 @@ Together, these components allow the Perceptron to learn from data, adjust its p
 
 The Perceptron model operates in a step-by-step process that involves computing the weighted sum of inputs, applying an activation function, and classifying the output.
 
-1. Initialize Weights and Bias: The model begins by assigning random weights to the inputs and setting a bias value
+1. **Initialize Weights and Bias**: At the beginning, perceptron randomly initialize values of weights and bias (usually both as 0).
+  
+2. **Calculate Weighted sum**: It multiplies each input feature with its corresponding weights and sum them up. After that, adds bias to it to get weighted sum.
+
+3. **Applies the Activation function**: Perceptron applies the activation function (Step function in this case) to the weighted sum, to get final prediction in binary form (0 or 1).
+
+4. **Update Weights and bias**: It compares predicted and actual value. If they are different, perceptron uses its learning rule to update weights and bias.
+
+5. **Repeat**: Repeat the process until model predicts correct outputs.
