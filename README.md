@@ -88,3 +88,13 @@ The Perceptron model operates in a step-by-step process that involves computing 
 4. **Update Weights and bias**: It compares predicted and actual value. If they are different, perceptron uses its learning rule to update weights and bias.
 
 5. **Repeat**: Repeat the process until model converges.
+
+> [!Note]
+> In training, algorithm takes first data point, performs prediction,  
+> If prediction matches actual output, then it goes for next data points with same weights and bias values,  
+> Else updates weights and bias, and goes for next data points with this updated weights and bias.  
+> This runs till data points ends  
+> And this whole process is performed multiple times i.e epoch
+
+> [!Note]
+> Shuffle training data at each epoch to avoid overfitting to fixed order
