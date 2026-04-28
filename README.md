@@ -99,6 +99,8 @@ The Perceptron model operates in a step-by-step process that involves computing 
 > [!Note]
 > Shuffle training data at each epoch to avoid overfitting to fixed order
 
+---
+
 ### Limitation of Single layer Perceptron
 
 Single layer perceptron can only draw **straight line decision boundary** to separate data points into two distinct classes.
@@ -121,7 +123,9 @@ Example,
 
 ![OR](OR.png)
 
-#### XOR Problem in Single layer Perceptron
+---
+
+### XOR Problem in Single layer Perceptron
 
 **Single layer perceptron cannot work with non-linear data because non-linear data needs a curved decision boundary to separate data points into distinct classes**.
 
