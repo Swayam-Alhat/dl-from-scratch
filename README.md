@@ -98,3 +98,45 @@ The Perceptron model operates in a step-by-step process that involves computing 
 
 > [!Note]
 > Shuffle training data at each epoch to avoid overfitting to fixed order
+
+### Limitation of Single layer Perceptron
+
+Single layer perceptron can only draw **straight line decision boundary** to separate data points into two distinct classes.
+
+If data is linearly separable, straight line easily separates them into two distinct classes. **_So, a single layer perceptron is sufficient for classification when data is linearly separable._**.
+
+Example,
+
+**Logic Gate like OR**: The data points can be separated by a single straight line.
+
+| Input A | Input B | Output (Y) |
+| :-----: | :-----: | :--------: |
+|    0    |    0    |     0      |
+|    0    |    1    |     1      |
+|    1    |    0    |     1      |
+|    1    |    1    |     1      |
+
+**class 1**: (0,0) outputs 0  
+**class 2**: (0,1) , (1,0) & (1,1) outputs 1
+
+![OR](OR.png)
+
+#### XOR Problem in Single layer Perceptron
+
+**Single layer perceptron cannot work with non-linear data because non-linear data needs a curved decision boundary to separate data points into distinct classes**.
+
+Example,
+
+**Logic gate like XOR**: It is mathematically impossible to separate XOR data points into distinct classes by using straight line.
+
+| Input A | Input B | Output (A ⊕ B) |
+| :-----: | :-----: | :------------: |
+|    0    |    0    |       0        |
+|    0    |    1    |       1        |
+|    1    |    0    |       1        |
+|    1    |    1    |       0        |
+
+**class 1**: (0,0) & (1,1) outputs 0  
+**class 2**: (0,1) & (1,0) outputs 1
+
+![XOR](XOR.png)
