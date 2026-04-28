@@ -101,11 +101,11 @@ The Perceptron model operates in a step-by-step process that involves computing 
 
 ---
 
-### Limitation of Single layer Perceptron
+### Single layer Perceptron with linearly separable data
 
 Single layer perceptron can only draw **straight line decision boundary** to separate data points into two distinct classes.
 
-If data is linearly separable, straight line easily separates them into two distinct classes. **_So, a single layer perceptron is sufficient for classification when data is linearly separable._**.
+If data is linearly separable, straight line easily separates them into two distinct classes. **_So, a single layer perceptron is sufficient for classification when data is linearly separable_**.
 
 Example,
 
@@ -125,9 +125,9 @@ Example,
 
 ---
 
-### XOR Problem in Single layer Perceptron
+### Single layer Perceptron with non-linear data
 
-**Single layer perceptron cannot work with non-linear data because non-linear data needs a curved decision boundary to separate data points into distinct classes**.
+**Single layer perceptron cannot work with non-linear data because non-linear data needs a curved decision boundary to separate data points into two distinct classes**.
 
 Example,
 
