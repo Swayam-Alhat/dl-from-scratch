@@ -67,11 +67,30 @@ class Perceptron:
                 
             # shuffle data points in dataset
             rng.shuffle(self.train_data)
+    
+    def test(self):
+
+        prediction_array = []
+
+        for idx in range(len(self.test_data)):
+
+            # calculate weighted sum
+            weighted_sum = sum(self.test_data[idx][:-1] * self.weights) + self.bias
+
+            # apply step function
+            if weighted_sum >= 0:
+                prediction = 1.0
+            else:
+                prediction = 0.0
+            
+            # append prediction in array
+            prediction_array.append(prediction)
         
-                
+        print(f"prediction on test data: {prediction_array}")
+        return prediction_array
+              
     
 p1 = Perceptron(data,test_data)
 p1.train()
-print(p1.weights)
-print(p1.bias)
+p1.test()
             
