@@ -151,4 +151,93 @@ Example,
 
 ---
 
+> [!Note]
+> Since most of real world data is non-linear, we need a model that can introduce non-linearity. This is where MLPs comes in picture. MLPs contains **hidden layers** and uses **non-linear activation function**.
+
+### What Hidden layers does in MLPs
+
+Hidden layers sit between the input and output layer. Each hidden layer looks at the output of the previous layer and learns to detect more abstract patterns from it.
+
+For example,
+
+- **Layer 1** — learns simple patterns from raw input (edges, basic shapes)
+
+- **Layer 2** — combines simple patterns into something more meaningful (eyes, ears)
+
+- **Layer 3** — combines those into higher concepts (a face, an object)
+
+- **Output layer** — makes final decision based on all that built-up understanding
+
+**Each Layer allows MLPs to find more complex non-linear relationships in input data**
+
+### Why Non-linear activation function is important in MLPs
+
+Without an activation function, each neuron just computes a weighted sum and passes it forward. That is a purely linear operation.
+
+Stacking linear layers on top of each other is still linear. No matter how many layers you add, the whole network collapses into a single linear equation — making hidden layers pointless.
+
+So, **The network can still only draw a straight line**.
+
+**Non-linear activation functions** break this. After every weighted sum, the neuron passes the result through an activation function before sending it to the next layer. **This introduces a "bend" or "curve" into the computation**
+
+Example, if we use **ReLU** (commonly used activation function)
+
+This function -
+
+- **outputs 0** when weighted sum is 0 or less than 0 (negative)
+- **outputs same weighted sum value** when weighted sum is greater than 0
+
+Example,
+
+| Weighted sum | ReLU output |
+| :----------: | :---------: |
+|      -2      |      0      |
+|      -5      |      0      |
+|      0       |      0      |
+|      3       |      3      |
+|      7       |      7      |
+
+**_this small non-linearity, applied across many neurons and many layers, allows the network to learn curved, complex decision boundaries_**
+
+---
+
 ### Multi-layer Perceptron (MLP)
+
+Multilayer Perceptron is an Artificial Neural Network (ANN) with an input layer, 1 or more hidden layers, and an output layer.
+Each neuron in a layer is connected to every neuron in the next layer.
+
+#### How data flows forward
+
+Input layer takes input data. Each neuron in the input layer corresponds to a single feature.
+For example, if data has 3 features, the input layer will have 3 neurons.
+
+MLPs perform actual computation at hidden layers. Each neuron in a hidden layer:
+
+- Calculates the weighted sum of its inputs
+- Passes it through an activation function (typically ReLU, tanh, or sigmoid)
+- Sends the output to the next layer as input
+
+This continues layer by layer until the output layer.
+The output layer also applies an activation function depending on the task:
+
+- **Sigmoid** for binary classification
+- **Softmax** for multi-class classification
+- **No activation (linear)** for regression
+
+The output layer then generates the final prediction.
+
+#### How MLPs learn
+
+After the prediction, it is compared with the actual value and error is calculated using a loss function:
+
+- **MSE** for regression tasks
+- **Binary Cross Entropy** for classification tasks
+
+This error is then propagated backwards through the network layer by layer — this is called **Backpropagation**.
+During backpropagation, the gradient of the loss is computed for each weight and bias.
+
+Once all gradients are computed, the weights and biases are updated using **Gradient Descent**:
+
+- Each weight is adjusted in the direction that reduces the error
+
+**This full cycle — forward pass → loss calculation → backpropagation → weight update — repeats for many iterations until the loss is minimized.**
