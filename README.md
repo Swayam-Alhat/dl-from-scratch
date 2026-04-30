@@ -1,7 +1,9 @@
 # Deep Learning
 
-**Deep learning** is technique to make machine learn from data using artificial neural network.  
+**Deep learning** is technique to make machine learn from data using Artificial neural network.  
 **_As machine learning uses ml algorithms to learn from data, deep learning uses Artificial Neural Network to learn from data._**
+
+**_Artificial Neural Network (ANN) is foundational Machine learning algorithm/model which is inspired by the structure of the human brain._**
 
 **Artificial Neural Network** are computational model that are similar to our human brain.  
 **_ANNs consist of interconnected layers of nodes (neurons) that process data, learn from it, and make predictions._**
@@ -56,9 +58,11 @@ The learning process can be categorized into two main types:
 
 ## Perceptron
 
+**A basic type of ANN is the Perceptron**.
+
 **Perceptron** is one of the most earliest and fundamental ML algorithm that formed a foundation for neural networks & todays AI systems.
 
-The **Perceptron model** is a type of artificial neuron that functions as a **_linear binary classifier_**. Its purpose is to classify data points into one of two categories by learning a decision boundary from labeled training data.
+The **Perceptron model** is a type of **Artificial neuron** that functions as a **_linear binary classifier_**. Its purpose is to classify data points into one of two categories by learning a decision boundary from labeled training data.
 
 ### Components of Perceptron
 
@@ -72,7 +76,7 @@ Together, these components allow the Perceptron to learn from data, adjust its p
 
 ![Perceptron](Perceptron.jpg)
 
-### How Single layer Perceptron works
+### How Single layer Perceptron (SLP) works
 
 The Perceptron model operates in a step-by-step process that involves computing the weighted sum of inputs, applying an activation function, and classifying the output.
 
@@ -144,3 +148,7 @@ Example,
 **class 2**: (0,1) & (1,0) outputs 1
 
 ![XOR](XOR.png)
+
+---
+
+### Multi-layer Perceptron (MLP)
