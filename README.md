@@ -154,6 +154,8 @@ Example,
 > [!Note]
 > Since most of real world data is non-linear, we need a model that can introduce non-linearity. This is where MLPs comes in picture. MLPs contains **hidden layers** and uses **non-linear activation function**.
 
+---
+
 ### What Hidden layers does in MLPs
 
 Hidden layers sit between the input and output layer. Each hidden layer looks at the output of the previous layer and learns to detect more abstract patterns from it.
@@ -169,6 +171,8 @@ For example,
 - **Output layer** — makes final decision based on all that built-up understanding
 
 **Each Layer allows MLPs to find more complex non-linear relationships in input data**
+
+---
 
 ### Why Non-linear activation function is important in MLPs
 
