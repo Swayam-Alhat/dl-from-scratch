@@ -93,6 +93,35 @@ The Perceptron model operates in a step-by-step process that involves computing 
 
 5. **Repeat**: Repeat the process until model converges.
 
+#### How actually weights and bias are updated
+
+Perceptron uses its **learning rule** to update weights and bias. **This weights and bias are updated as per the input feature values**.  
+This means, next time, when similar type of input data points arrives, this updated weights and bias helps perceptron to output correct output.
+
+Example, A perceptron is learning to classify whether given image is cat (1) or not cat (0)
+
+So, initially weights and bias are initialized as 0.
+
+Input layer takes first training input data point. Weighted sum is calculated and activation function is applied to output final prediction.
+
+The actual outcome is 1 (cat), but perceptron predicts 0 (not a cat).
+
+So, incorrect prediction, This is when learning rule is used to update weights and bias.
+
+```
+w = w + learning_rate × (actual - predicted) × input
+b = b + learning_rate × (actual - predicted)
+```
+
+> [!Note]
+> We can see, that learning rule formula contains `input`. This indicates that weights are adjusted as per input feature
+
+Now, this weights and bias are updated in such a way, for new input data, it outputs 1 ( a cat) when similar input features are present.
+
+Over many training samples, weights and bias gradually settle into values
+where cat-like features consistently produce 1, and non-cat features
+consistently produce 0.
+
 > [!Note]
 > In training, algorithm takes first data point, performs prediction,  
 > If prediction matches actual output, then it goes for next data points with same weights and bias values,  
@@ -245,3 +274,5 @@ Once all gradients are computed, the weights and biases are updated using **Grad
 - Each weight is adjusted in the direction that reduces the error
 
 **This full cycle — forward pass → loss calculation → backpropagation → weight update — repeats for many iterations until the loss is minimized.**
+
+---
