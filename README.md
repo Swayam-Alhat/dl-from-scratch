@@ -8,7 +8,7 @@
 **Artificial Neural Network** are computational model that are similar to our human brain.  
 **_ANNs consist of interconnected layers of nodes (neurons) that process data, learn from it, and make predictions._**
 
-![Artificial Neural Network](Neural-Networks-Architecture.png)
+![Artificial Neural Network](./figures/Neural-Networks-Architecture.png)
 
 In simple terms, ANNs consist of layers of nodes: the input layer, where data is fed into the network; hidden layers, where data is processed and transformed; and the output layer, which produces the final result.
 
@@ -74,7 +74,7 @@ The **Perceptron model** is a type of **Artificial neuron** that functions as a 
 
 Together, these components allow the Perceptron to learn from data, adjust its parameters, and generate predictions.
 
-![Perceptron](Perceptron.jpg)
+![Perceptron](./figures/Perceptron.jpg)
 
 ### How Single layer Perceptron (SLP) works
 
@@ -154,7 +154,7 @@ Example,
 **class 1**: (0,0) outputs 0  
 **class 2**: (0,1) , (1,0) & (1,1) outputs 1
 
-![OR](OR.png)
+![OR](./figures/OR.png)
 
 ---
 
@@ -176,7 +176,7 @@ Example,
 **class 1**: (0,0) & (1,1) outputs 0  
 **class 2**: (0,1) & (1,0) outputs 1
 
-![XOR](XOR.png)
+![XOR](./figures/XOR.png)
 
 ---
 
