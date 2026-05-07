@@ -27,7 +27,7 @@ For a perceptron with a really big bias, it's extremely easy for the perceptron 
 
 #### Limitations of perceptron
 
-To bring network (ANN) closer to desired behaviour (i.e outputs will be accurate), we need to make gradual changes to weights and bias, so it would make changes in output.
+To bring network (ANN) closer to desired behaviour (i.e outputs will be accurate), we need to make gradual changes to weights and bias, so the network's output changes gradually toward the desired output.
 
 But,
 
@@ -59,3 +59,6 @@ in the bias will produce a small change $Δoutput$
 in the output from the neuron
 
 That's why sigmoid neuron is used in ANNs
+
+> [!Note]
+> Other activation functions like ReLU or Tanh are also used as activation functions
