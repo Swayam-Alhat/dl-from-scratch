@@ -1,5 +1,8 @@
 # Deep Learning
 
+> [!Note]
+> To better understand Neural network, read free online book [Neural network & Deep learning](http://neuralnetworksanddeeplearning.com/index.html). It is best resource.
+
 **Deep learning** is technique to make machine learn from data using Artificial neural network.  
 **_As machine learning uses ml algorithms to learn from data, deep learning uses Artificial Neural Network to learn from data._**
 
