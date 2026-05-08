@@ -18,9 +18,6 @@ The formula for that change is:
 
 ΔC = (∂C/∂v1) × Δv1 + (∂C/∂v2) × Δv2
 
-_This above formula is called total differential formula_  
-_It is used to calculate the change in a function of multiple variables_
-
 Where:
 
 - ∂C/∂v1 = partial derivative of C w.r.t v1 (how C changes when v1 changes slightly)
@@ -28,6 +25,9 @@ Where:
 - ∂C/∂v2 = partial derivative of C w.r.t v2 (how C changes when v2 changes slightly)
 
 - Δv1, Δv2 = small changes in v1 and v2
+
+_This above formula is called total differential formula_  
+_It is used to calculate the change in a function of multiple variables_
 
 > [!Note]
 > Partial derivatives tells us how a function changes when we slightly change
@@ -52,9 +52,9 @@ Same formula, just cleaner notation.
 
 ## Step 3 - How to make ΔC negative?
 
-We want ΔC to be negative. (Means C value decreased. That is our goal.)
+We want ΔC to be negative. (Means C value decreased)
 
-So lets choose Δv smartly:
+So lets choose Δv :
 
 Δv = -lr × ∇C
 
@@ -65,7 +65,9 @@ Where lr = learning rate (a small positive number)
 Substitute Δv in the formula:
 
 ΔC = ∇C · (-lr × ∇C)
+
 ΔC = -lr × (∇C · ∇C)
+
 ΔC = -lr × ‖∇C‖²
 
 Now:
@@ -120,10 +122,10 @@ So, in same way, we can minimize the cost function used in ANNs. Meaning we can 
 
 This is how, weights and bias are updated to get optimal weights and bias that outputs accurate prediction
 
-The entire gradient descent algorithm in one line:
+Formula :
 
 new_weight = old_weight - lr × ∇C
 
 new_bias = old_bias - lr × ∇C
 
-This one formula, applied repeatedly, minimizes the cost function C.
+This formula, applied repeatedly, minimizes the cost function C.
