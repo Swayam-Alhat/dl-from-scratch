@@ -86,6 +86,13 @@ $$4 \times 0.001 = 0.004$$
 
 where $slope = 4$ & $a = 0.001$
 
+So, we get to know that slope or derivative of function tells -
+
+If input $x$ is slightly nudged by $a$, output of function changes by $slope \times a$
+
+- If slope or derivative is positive, then function's output increases by $slope \times a$
+- If slope or derivative is negative, then function's output decreases by $slope \times a$
+
 ## How differentiation helps to find slope of function
 
 This slope gives us information about how function's output changes when we slightly increase $x$
