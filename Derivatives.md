@@ -117,12 +117,12 @@ For different values of $x$, function have different derivatives
 
 That is,
 
-**_For each value of $x$, function has different derivative or slope._**
+**For each value of $x$, function has different derivative or slope.**
 
 Example, for function $f(x) = x^2$ ,
 
 - At $x = 2$, derivative or slope is $2x = 2 \times 2 = 4$
 
-- At $ x = 3$ , derivative or slope is $2x = 2 \times 3 = 6$
+- At $x = 3$ , derivative or slope is $2x = 2 \times 3 = 6$
 
 - At $x = 4$, derivative or slope is $2x = 2 \times 4 = 8$
