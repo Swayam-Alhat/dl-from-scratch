@@ -11,7 +11,7 @@
 **Artificial Neural Network** are computational model that are similar to our human brain.  
 **_ANNs consist of interconnected layers of nodes (neurons) that process data, learn from it, and make predictions._**
 
-![Artificial Neural Network](./figures/Neural-Networks-Architecture.png)
+![Artificial Neural Network](./figures/ann.png)
 
 In simple terms, ANNs consist of layers of nodes: the input layer, where data is fed into the network; hidden layers, where data is processed and transformed; and the output layer, which produces the final result.
 
