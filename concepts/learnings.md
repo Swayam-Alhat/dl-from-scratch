@@ -177,3 +177,13 @@ Actual backward is occuring this way,
 ```
 
 **So, after single backward pass, we should set grads of loss w.r.t each weights to zero**
+
+## Mini bacth gradient descent
+
+In real world, we have large dataset, so we cannot forward pass entire dataset at once. So, we select small part of training data (batch) & perform forward pass, backward pass & weight updates ...
+
+## Shrink learning rate as we get close to minimum loss
+
+At begining of training, learning rate is high & as we get closer to minimum loss, we shrink learning rate so to converge slowly...
+
+This is called **learning rate decay**
