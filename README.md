@@ -1,20 +1,15 @@
 # dl-from-scratch
 
-This repo contains implementation of [micrograd](https://github.com/karpathy/micrograd) in `test.ipynb`.
-
-micrograd is built with the help of [youtube video by andrej karpathy](https://youtu.be/VMj-3S1tku0?si=5uXN7sFFk2txpA3Y). Its purpose was to understand how backprop & gradient descent works to make ANN learn
-
-I also implemented and trained single layer perceptron in `perceptron.py`
-
-`concept` folder contains explaination about concepts in my own words -
-
-- To understand, what actually derivative is & how it is used in ANNs , look at [Derivatives.md](./concepts/Derivatives.md)
-
 > [!Note]  
-> Before Gradient-descent, read [Derivatives.md](./concepts/Derivatives.md) to better understand gradient descent
+> This repo was created to implement Dl concepts from scratch & learn how concepts like backprop & gradient descent works to make ANN learn
 
-- To undertand gradient descent algorithm, have a look at [Gradient-descent.md](./concepts/Gradient-descent.md)
+`/micrograd/test.ipynb` - contains actual implementation of micrograd
 
-- To know about deep learning concepts, look at [deep_learning.md](./concepts/deep_learning.md)
+`/SLP/perceptron.py` - contains implementation & training of single layer perceptron
 
-- `learning.md` contains points that i learnt while building this repo
+`/concepts` contains `md` files that stores explaination about specific concepts
+
+- `concepts/Derivatives.md` - contains explaination about derivatives. what they are and how they are used in ANNs
+- `/concepts/Gradient-descent.md` - contains explaination of gradient descent from book[Neural network & Deep learning](http://neuralnetworksanddeeplearning.com/index.html) By Michael Nielsen
+
+- `/concepts/learning.md` - contains explaination of topics that i learnt while working on this repo
