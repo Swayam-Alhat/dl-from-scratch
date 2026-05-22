@@ -1,7 +1,8 @@
 # dl-from-scratch
 
-This repo contains implementation of [micrograd](https://github.com/karpathy/micrograd) in `test.ipynb`.  
-micrograd is built with the help of [youtube video by andrej karpathy](https://youtu.be/VMj-3S1tku0?si=5uXN7sFFk2txpA3Y)
+This repo contains implementation of [micrograd](https://github.com/karpathy/micrograd) in `test.ipynb`.
+
+micrograd is built with the help of [youtube video by andrej karpathy](https://youtu.be/VMj-3S1tku0?si=5uXN7sFFk2txpA3Y). Its purpose was to understand how backprop & gradient descent works to make ANN learn
 
 I also implemented and trained single layer perceptron in `perceptron.py`
 
