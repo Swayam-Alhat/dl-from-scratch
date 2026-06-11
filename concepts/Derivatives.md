@@ -34,7 +34,7 @@ plt.plot(Xs, Ys)
 
 Output :
 
-![Output](./figures/output.png)
+![Output](../figures/output.png)
 
 Derivatives gives us value of slope of function for that $x$ value. Meaning, how function's output changes when we slightly nudge $x$
 
