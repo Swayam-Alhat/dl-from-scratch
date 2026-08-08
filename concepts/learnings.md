@@ -26,13 +26,11 @@ walking man speed = 1km/hr
 
 So, we get know, car is 8 times fast as walking main.
 
-And if we multiply speed of car with bicycle i.e $8 \times 4 = 8$.
+And if we multiply speed of car with walking man's speed i.e $8 \times 1 = 8$.
 
-so, we get 8. Means if we know,
-
-how x is depend on y
-
-and, how y is depend on z,
+so, we get 8.   
+  
+Means if we know, how x is depend on y & how y is depend on z,
 
 we can know, how x is depend on z -> by multiplying `how x depends on y` with `how y depends on z`
 
