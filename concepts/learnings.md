@@ -16,7 +16,7 @@ If, walking man speed is 1km/hr , then we know, bicycle is 4x times fast as walk
 
 so, speed of bicycle is $4 \times 1 = 4$. So, speed of bicycle is 4km/hr
 
-And we know, car is 2x (twice) as fast as car. so speed of car is $2 \times 4 = 8$. So, car speed is 8km/hr
+And we know, car is 2x (twice) as fast as bicycle. so speed of car is $2 \times 4 = 8$. So, car speed is 8km/hr
 
 So, to know how much fast car is as compared to man, we will compare both speeds
 
